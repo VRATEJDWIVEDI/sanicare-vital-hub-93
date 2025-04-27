@@ -190,7 +190,7 @@ export const consultations: Consultation[] = [
     date: new Date(Date.now() - 1209600000), // 2 weeks ago
     doctorName: 'Dr. Sarah Johnson',
     specialty: 'Cardiology',
-    notes: 'Patient's heart rate normal. Advised to monitor blood pressure daily.',
+    notes: "Patient's heart rate normal. Advised to monitor blood pressure daily.",
     prescriptions: ['Amlodipine 5mg', 'Aspirin 75mg'],
     hasPDF: true,
   },
@@ -199,7 +199,7 @@ export const consultations: Consultation[] = [
     date: new Date(Date.now() - 2592000000), // 1 month ago
     doctorName: 'Dr. Michael Chen',
     specialty: 'General Medicine',
-    notes: 'Patient reported flu-like symptoms. Prescribed rest and advised to increase fluid intake.',
+    notes: "Patient reported flu-like symptoms. Prescribed rest and advised to increase fluid intake.",
     prescriptions: ['Paracetamol 500mg', 'Cetirizine 10mg'],
     hasPDF: true,
   },
@@ -208,7 +208,7 @@ export const consultations: Consultation[] = [
     date: new Date(Date.now() - 7776000000), // 3 months ago
     doctorName: 'Dr. Emily Rodriguez',
     specialty: 'Dermatology',
-    notes: 'Patient had mild eczema on left arm. Prescribed topical cream and advised to avoid certain detergents.',
+    notes: "Patient had mild eczema on left arm. Prescribed topical cream and advised to avoid certain detergents.",
     prescriptions: ['Hydrocortisone 1% cream'],
     hasPDF: false,
   },
